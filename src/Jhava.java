@@ -3,6 +3,8 @@ import org.jetbrains.annotations.Nullable;
 
 public class Jhava {
 
+    public int hitPoints = 9000;
+
     @NotNull
     public String utterGreeting() {
         return "BLARGH!";
