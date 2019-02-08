@@ -7,4 +7,5 @@ fun main(args: Array<String>) {
     println(friendshipLevel?.toLowerCase() ?: "It's complicated.")
 
     val adversaryHitPoints: Int = adversary.hitPoints
+    println(adversaryHitPoints.dec())
 }
