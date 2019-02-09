@@ -28,6 +28,7 @@ class Spellbook {
     val spells = listOf("Fire Storm", "Ice Rain")
 
     companion object {
+        @JvmField
         val MAX_SPELL_COUNT = 10
     }
 }
