@@ -26,4 +26,8 @@ fun handOverFood(leftHand: String = "berries", rightHand: String = "beef") {
 class Spellbook {
     @JvmField
     val spells = listOf("Fire Storm", "Ice Rain")
+
+    companion object {
+        val MAX_SPELL_COUNT = 10
+    }
 }
