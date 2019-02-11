@@ -22,7 +22,10 @@ fun main(args: Array<String>) {
     } catch (e: Exception) {
         println("Begone, foul beast!")
     }
+}
 
+val translator = { utterance: String ->
+    println(utterance.toLowerCase().capitalize())
 }
 
 fun makeProclamation() = "Greetings, beast!"
