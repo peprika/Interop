@@ -1,6 +1,8 @@
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
+import java.io.IOException;
+
 public class Jhava {
 
     private int hitPoints = 9000;
@@ -19,7 +21,6 @@ public class Jhava {
 
         Spellbook.getSpellbookGreeting();
     }
-
 
     @NotNull
     public String utterGreeting() {
@@ -49,5 +50,13 @@ public class Jhava {
 
     public void extendHandInFriendship() throws Exception {
         throw new Exception();
+    }
+    
+    public void apologize() {
+        try {
+            Hero.acceptApology();
+        } catch (IOException e) {
+            System.out.println("Caught!");
+        }
     }
 }
