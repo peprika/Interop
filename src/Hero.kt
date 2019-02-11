@@ -1,3 +1,8 @@
+/*
+All thanks to the Big Nerd Ranch!
+https://www.bignerdranch.com/
+*/
+
 @file:JvmName("Hero")
 
 import java.io.IOException

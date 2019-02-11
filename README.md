@@ -1,5 +1,5 @@
 # Interop
 Practicing on Kotlin/Java Interoperability
 
-Thanks to Big Nerd Ranch!
-Riku Pepponen
+All thanks to the Big Nerd Ranch!
+https://www.bignerdranch.com/
